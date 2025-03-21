@@ -1,0 +1,8 @@
+Progetto IoT 2024-2025
+
+Idea:	si vuole realizzare un sistema di monitoraggio per le piante, che misuri l'umidità del terreno e la temperatura dell'aria (e la luminosità?)
+	il quale pubblichi queste informazioni con protocollo MQTT su un broker, al quale si possono iscrivere più dispositivi per monitorarne i dati.
+	
+	Un bot di telegram, inoltre, invierà delle notifiche all'utente riguardo alla temperatura troppo alta o bassa, o alla necessità di bagnare le piante.
+
+	Il sistema salverà su un database i dati memorizzati e li renderà disponbili per una successiva visualizzazione da parte del cliente.
